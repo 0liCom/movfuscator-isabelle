@@ -26,11 +26,11 @@ complete these proofs.
 The section Compilation is of greater interest, since we show the equivalence to Big_Step.
 
 Since the compilation only works on arbitrary "outer-loop" programs (i.e. where only one WHILE exists
-at the root of the program flow tree), we introduce a notion of expressing a program complying to
+at the root of the program syntax tree), we introduce a notion of expressing a program complying to
 this property.
 
 In the section "One Loop", we lay out the intuition that arbitrary programs can be transformed into
-a program of the "outer-loop" program, but we do not prove this (this file is already too long
+a program of the "outer-loop" property, but we do not prove this (this file is already too long
 anyway).\<close>
 
 (* List Setup from "HOL-IMP.Compiler" *)
